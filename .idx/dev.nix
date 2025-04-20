@@ -11,6 +11,8 @@
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
+     pkgs.adoptopenjdk-jre-openj9-bin-15
+     pkgs.run
   ];
 
   # Sets environment variables in the workspace
