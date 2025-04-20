@@ -1,7 +1,12 @@
 package com.alura.screenmatch.modelos;
 
 public class Serie extends Titulo {
-    private int temporadas;
+    public Serie(String nombre, int fechaDeLanzamiento) {
+            super(nombre, fechaDeLanzamiento);
+            //TODO Auto-generated constructor stub
+        }
+    
+        private int temporadas;
     private boolean activa;
     private int episodiosPorTemporada;
     private int minutosPorEpisodio;
