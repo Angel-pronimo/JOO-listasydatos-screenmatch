@@ -1,5 +1,5 @@
+package com.alura.screenmatch.principal;
 import java.util.ArrayList;
-
 import com.alura.screenmatch.calculos.CalculadoraDeTiempo;
 import com.alura.screenmatch.calculos.FiltroRecomendacion;
 import com.alura.screenmatch.modelos.Episodio;
@@ -58,7 +58,5 @@ public class Principal {
         System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());
         System.out.println(listaDePeliculas.toString());
         System.out.println("toString de la película " + listaDePeliculas.get(0).toString());
-
-        Object objeto = peliculaDeBruno;
     }
 }
